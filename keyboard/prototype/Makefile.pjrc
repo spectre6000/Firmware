@@ -39,7 +39,7 @@
 #----------------------------------------------------------------------------
 
 # Target file name (without extension).
-TARGET = gh60_pjrc
+TARGET = prototype_pjrc
 
 # Directory common source filess exist
 TMK_DIR = ../../tmk_core
@@ -50,13 +50,9 @@ TARGET_DIR = .
 # project specific files
 SRC =	keymap_common.c \
 	matrix.c \
-	led.c
 
-ifdef KEYMAP
-    SRC := keymap_$(KEYMAP).c $(SRC)
-else
-    SRC := keymap_poker.c $(SRC)
-endif
+SRC := keymap_$(KEYMAP).c $(SRC)
+
 
 CONFIG_H = config.h
 
@@ -72,7 +68,7 @@ MCU = atmega32u4
 #   so your program will run at the correct speed.  You should also set this
 #   variable to same clock speed.  The _delay_ms() macro uses this, and many
 #   examples use this variable to calculate timings.  Do not add a "UL" here.
-F_CPU = 16000000
+F_CPU = 8000000
 
 
 # Boot Section Size in *bytes*
