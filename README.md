@@ -43,20 +43,7 @@ These features can be used in your keyboard.
 
 Projects
 --------
-You can find some keyboard specific projects under `converter` and `keyboard` directory.
-
-### converter
-* [ps2_usb](converter/ps2_usb/)             - [PS/2 keyboard to USB][GH_ps2]
-* [adb_usb](converter/adb_usb/)             - [ADB keyboard to USB][GH_adb]
-* [m0110_usb](converter/m0110_usb)          - [Macintosh 128K/512K/Plus keyboard to USB][GH_m0110]
-* [terminal_usb](converter/terminal_usb/)   - [IBM Model M terminal keyboard(PS/2 scancode set3) to USB][GH_terminal]
-* [news_usb](converter/news_usb/)           - [Sony NEWS keyboard to USB][GH_news]
-* [x68k_usb](converter/x68k_usb/)           - [Sharp X68000 keyboard to USB][GH_x68k]
-* [sun_usb](converter/sun_usb/)             - [Sun] to USB(type4, 5 and 3?)
-* [pc98_usb](converter/pc98_usb/)           - [PC98] to USB
-* [usb_usb](converter/usb_usb/)             - USB to USB(experimental)
-* [ascii_usb](converter/ascii_usb/)         - ASCII(Serial console terminal) to USB
-* [ibm4704_usb](converter/ibm4704_usb)      - [IBM 4704 keyboard Converter][GH_ibm4704]
+You can find some keyboard specific projects under `keyboard` directory.
 
 ### keyboard
 * [hhkb](keyboard/hhkb/)                    - [Happy Hacking Keyboard pro][GH_hhkb] **my main board**

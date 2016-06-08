@@ -1,10 +1,10 @@
-GH60 keyboard firmware
+Prototype keyboard firmware
 ======================
 DIY compact keyboard designed and run by komar007 and Geekhack community.
 
 - Both Rev.A and Rev.B PCB are supported by one firmware binary(issue #64)
 
-## GH60 Resources
+## Prototype Resources
 - [KOMAR's project page](http://blog.komar.be/projects/gh60-programmable-keyboard/)
 - [Prototyping](http://geekhack.org/index.php?topic=34959.0)
 - [Rev.A PCB test](http://geekhack.org/index.php?topic=37570.0)
