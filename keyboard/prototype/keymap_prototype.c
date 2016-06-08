@@ -13,7 +13,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |  7|  8| Fn|
      * `-----------'
      */
-    KEYMAP_ANSI(
+    KEYMAP(
         1,   2,   3, /
         4,   5,   6, /
         7,   8,   FN0),
@@ -26,7 +26,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |  G|  H| Fn|
      * `-----------'
      */
-    KEYMAP_ANSI(
+    KEYMAP(
         A,   B,   C, \
         D,   E,   F, \
         G,   H,   FN1),
@@ -39,7 +39,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |  "|  ,| Fn|
      * `-----------'
      */
-    KEYMAP_ANSI(
+    KEYMAP(
         MINS, EQL,BSLS, \
         LBRC,RBRC,BSPC, \
         QUOT,COMM, FN2),
